@@ -6,7 +6,7 @@ metadata:
     role: pruner
 spec:
   containers:
-  - image: getupcloud/imagepruner:latest
+  - image: vdhwouter/image-pruner:latest
     name: pruner
     env:
       - name: KEEP_COMPLETE

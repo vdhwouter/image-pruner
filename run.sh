@@ -31,5 +31,4 @@ fi
 #prune images 
 oc adm prune images \
 --keep-tag-revisions=$keep_tags \
---keep-younger-than=$keep_younger \
---confirm
+--keep-younger-than=$keep_younger
